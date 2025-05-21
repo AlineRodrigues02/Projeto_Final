@@ -1,19 +1,99 @@
-body{
-    background-color:rgb(9, 1, 19)
+h1 {
+    font-family: 'Playfair Display', serif;
+  color: #08b1df; /* Cor principal do texto */
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  text-shadow: 
+    0 0 5px #9d00ff,
+    0 0 10px #9d00ff,
+    0 0 20px #9d00ff,
+    0 0 40px #9d00ff,
+    0 0 80px #9d00ff;      
 }
 
+body{
+    background-color:rgb(9, 1, 19);
+}
 
+#museu h2 {
+  color: #F8DCFB; /* Cor do título da sessão */
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-shadow: 
+    0 0 5px #00f0ff,
+    0 0 10px #00f0ff,
+    0 0 20px #00f0ff,
+    0 0 40px #0ff,
+    0 0 80px #0ff;
+}
+
+#museu {
+  color: #f0e6ff; /* Cor do texto */      
+  font-family: Georgia, serif; /* Fonte */
+  text-align: center; /* Alinhamento do parágrafo */
+  padding: 20px; /* Espaçamento interno */
+  margin-top: 50px; /* Espaço antes da seção */
+  background-color: #320338; /* Fundo leve */
+  border-radius: 10px;
+}
+
+#moda2025 h2 {
+  color: #5f0768; /* Cor do título da sessão */
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-shadow: 
+    0 0 5px #e748ff,
+    0 0 10px #e748ff,
+    0 0 20px #e748ff,
+    0 0 40px #e748ff,
+    0 0 80px #e748ff
+}
+
+#moda2025 {
+  color: #5f0768; /* Cor do texto */      
+  font-family: Georgia, serif; /* Fonte */
+  text-align: center; /* Alinhamento do parágrafo */
+  padding: 20px; /* Espaçamento interno */
+  margin-top: 50px; /* Espaço antes da seção */
+  background-color: #F8DCFB; /* Fundo leve */
+  border-radius: 10px;
+}
+
+#moda3025 h2 {
+  color: #F8DCFB; /* Cor do título da sessão */
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-shadow: 
+    0 0 5px #00f0ff,
+    0 0 10px #00f0ff,
+    0 0 20px #00f0ff,
+    0 0 40px #0ff,
+    0 0 80px #0ff;
+}
+
+#moda3025 {
+  color: #f0e6ff; /* Cor do texto */      
+  font-family: Georgia, serif; /* Fonte */
+  text-align: center; /* Alinhamento do parágrafo */
+  padding: 20px; /* Espaçamento interno */
+  margin-top: 50px; /* Espaço antes da seção */
+  background-color: #320338; /* Fundo leve */
+  border-radius: 10px;
+}
 
 header {
     display: flex;            
     flex-direction: column;
-    align-items: center;        
+    align-items: center;  
 }
 
 header img {
     max-width: 100%;            
     height: auto;           
-    margin-bottom: 15px;        
 }
 
 
@@ -26,7 +106,7 @@ nav ul {
 /* Links do menu */
 nav a {
     text-decoration: none;      
-    color: rgb(13, 134, 255);               
+    color: #0086ce;               
     font-weight: bold;         
     transition: color 0.3s ease;
 }
