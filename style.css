@@ -72,7 +72,7 @@ nav input[type=text] {
   font-size: 17px;
 }
 div.scroll-container {
-  background-color: #333;
+  background-color: #050114;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
@@ -163,7 +163,21 @@ h1 {
   background-color: #320338; /* Fundo leve */
   border-radius: 10px;
 }
+#evolucao h2{
+     color: #F8DCFB; /* Cor do título da sessão */
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-shadow: 
+    0 0 5px #00f0ff,
+    0 0 10px #00f0ff,
+    0 0 20px #00f0ff,
+    0 0 40px #0ff,
+    0 0 80px #0ff;
 
+
+}
 #evolucao{
 
       color: #f0e6ff; /* Cor do texto */      
@@ -171,7 +185,7 @@ h1 {
   text-align: center; /* Alinhamento do parágrafo */
   padding: 20px; /* Espaçamento interno */
   margin-top: 50px; /* Espaço antes da seção */
-  background-color: #320338; /* Fundo leve */
+ 
   border-radius: 10px;
 
 
@@ -184,7 +198,25 @@ h1 {
     width: 400px;
     height: 400px;
 }
+#conteiner{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+#conteiner p{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin-top: 50px;
 
+}
+#conteiner img{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+}
 /* Responsividade para telas pequenas */
 @media (max-width: 600px) {
     nav ul {
