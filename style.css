@@ -186,6 +186,7 @@ h1 {
   margin-top: 50px; /* Espaço antes da seção */
   border-radius: 10px;
 }
+
 #evolucaoimg{
     width: 300px;
     height: 300px;
@@ -215,7 +216,61 @@ h1 {
     height: 500px;
     margin-left: 20px;
 }
-/* Responsividade para telas pequenas */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(25, 2, 38);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer h5{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(25, 2, 38);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+label{
+  color: #08b1df; /* Cor principal do texto */
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+    text-shadow: 
+    0 0 5px #9d00ff,
+    0 0 10px #9d00ff,
+    0 0 20px #9d00ff,
+    0 0 40px #9d00ff; 
+}
+
+/* Botões de enviar e resetar */
+input[type="submit"],
+input[type="reset"] {
+  margin: 30px;
+    background-color: #580a6f;  /* Fundo azul */
+    color: white;               /* Texto branco */
+    border: none;               /* Sem borda */
+    padding: 10px;              /* Espaço interno */
+    cursor: pointer;            /* Cursor de mãozinha */
+    border-radius: 5px;         /* Bordas arredondadas */
+    transition: background 0.3s ease; /* Transição suave */
+    max-width: 200px;           /* Largura máxima */
+}
+
+/* Efeito hover nos botões */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #ad35b8; /* Azul um pouco mais escuro */
+}
+
+/* para telas pequenas */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column; /* Menu em coluna */
