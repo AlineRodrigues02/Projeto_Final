@@ -61,6 +61,7 @@ nav a:hover {
     width: 95%;
     height: 500px;
 }
+/* pequena caixa de perguntas */
 nav input[type=text] {
     display: flex;
   float: left;
@@ -71,11 +72,12 @@ nav input[type=text] {
   margin-right: 16px;
   font-size: 17px;
 }
+/* Parte do scroll em que o rolamento de imagens  */
 div.scroll-container {
-  background-color: #050114;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
+  background-color: #050114; /*Cor de fundo do scroll*/
+  overflow: auto; /*Exibe a barra de rolagem quando o conteudo ultrapassa os elementos*/
+  white-space: nowrap; /*Espaçamento */
+  padding: 10px; /*Espaçamento entre as imagens*/
 }
 
 div.scroll-container img {
@@ -91,8 +93,7 @@ h1 {
     0 0 5px #9d00ff,
     0 0 10px #9d00ff,
     0 0 20px #9d00ff,
-    0 0 40px #9d00ff,
-    0 0 80px #9d00ff;      
+    0 0 40px #9d00ff;   
 }
 
 #museu h2 {
@@ -164,31 +165,26 @@ h1 {
   border-radius: 10px;
 }
 #evolucao h2{
-     color: #F8DCFB; /* Cor do título da sessão */
+  color: #08b1df; /* Cor principal do texto */
+  align-items: center;
   text-align: center;
   font-size: 28px;
   margin-bottom: 20px;
   margin-top: 20px;
-  text-shadow: 
-    0 0 5px #00f0ff,
-    0 0 10px #00f0ff,
-    0 0 20px #00f0ff,
-    0 0 40px #0ff,
-    0 0 80px #0ff;
-
-
+    text-shadow: 
+    0 0 5px #9d00ff,
+    0 0 10px #9d00ff,
+    0 0 20px #9d00ff,
+    0 0 40px #9d00ff; 
 }
 #evolucao{
 
-      color: #f0e6ff; /* Cor do texto */      
+  color: #f0e6ff; /* Cor do texto */      
   font-family: Georgia, serif; /* Fonte */
   text-align: center; /* Alinhamento do parágrafo */
   padding: 20px; /* Espaçamento interno */
   margin-top: 50px; /* Espaço antes da seção */
- 
   border-radius: 10px;
-
-
 }
 #evolucaoimg{
     width: 300px;
@@ -206,8 +202,10 @@ h1 {
 #conteiner p{
     display: flex;
     flex-direction: row;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 50px;
+    text-align: justify;
+    margin-left: 30px;
 
 }
 #conteiner img{
