@@ -5,6 +5,18 @@
     box-sizing: border-box;      /* Inclui padding e borda no tamanho total do elemento */
 }
 
+#museu  {
+  font-size: 25px;
+}
+
+#moda2025  {
+  font-size: 20px;
+}
+
+#moda3025 {
+  font-size: 20px;
+}
+
 body{
     background-color:rgb(9, 1, 19);
 }
